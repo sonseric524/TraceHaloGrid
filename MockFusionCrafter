@@ -1,0 +1,22 @@
+
+---
+
+**MockFusionCrafter**  
+**Description:**  
+Combines templates, generators, and context rules to create rich synthetic datasets for testing and analytics.
+
+```markdown
+# MockFusionCrafter – Layered Synthetic Data Generator
+
+MockFusionCrafter blends rule-driven fields, category balancing, and pattern-aware generation into high-quality mock data.
+
+## Features
+- YAML-configurable templates
+- Support for mixed field types
+- Output: CSV / JSONL / SQL
+
+## Usage
+```bash
+git clone https://github.com/your-username/MockFusionCrafter.git
+cd MockFusionCrafter
+python generate.py
