@@ -1,0 +1,22 @@
+
+---
+
+**AnomCastDelta**  
+**Description:**  
+Streams incoming metrics and computes delta-based anomaly scores to detect trend disruptions.
+
+```markdown
+# AnomCastDelta – Streaming Anomaly Delta Engine
+
+AnomCastDelta identifies anomaly spikes based on short-term vs long-term deltas, ideal for detecting subtle trend breaks.
+
+## Features
+- Supports Prometheus and Graphite metrics
+- Rolling statistical windows
+- Slack and Webhook alerts
+
+## Usage
+```bash
+git clone https://github.com/your-username/AnomCastDelta.git
+cd AnomCastDelta
+python stream_watch.py
