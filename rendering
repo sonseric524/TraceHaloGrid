@@ -1,0 +1,22 @@
+
+---
+
+**LogPulseOrbiter**  
+**Description:**  
+Transforms log events into orbit-style visualizations to show relationships between systems and error clusters.
+
+```markdown
+# LogPulseOrbiter – Orbit-Based Log Mapper
+
+LogPulseOrbiter places log sources as central nodes and shows surrounding error clouds in orbit based on frequency and severity.
+
+## Features
+- Circular orbit rendering
+- Color-coded severity trails
+- Zoom & filter panel
+
+## Usage
+```bash
+git clone https://github.com/your-username/LogPulseOrbiter.git
+cd LogPulseOrbiter
+python orbit.py
